@@ -5,7 +5,8 @@ import "./index.css";
 
 const root = createRoot(document.getElementById("root"));
 
-root.render(<BrowserRouter>
+root.render(
+<BrowserRouter>
 <Routes>
   <Route path="/" element={<h1>Home</h1>}/>
 </Routes>
