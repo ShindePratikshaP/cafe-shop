@@ -9,7 +9,7 @@ const root = createRoot(document.getElementById("root"));
 root.render(
 <BrowserRouter>
 <Routes>
-  <Route path="/" element={<h1>Home</h1>}/>
+  <Route path="/" element={<Home />}/>
 </Routes>
 </BrowserRouter>
 )
