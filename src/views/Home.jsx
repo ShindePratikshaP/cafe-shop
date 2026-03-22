@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import cafe from "../assets/cafe-img.jpeg";
-import FeatureCard from '../components/FeatureCard';
+import FeatureSection from '../components/FeatureSection';
 
 function Home() {
   return (
     <div>
         <Navbar />
-         <div className="relative w-full h-[600px]">
+         <div className="relative w-full h-[600px] mt-16">
 
         <img
           src={cafe}
@@ -36,26 +36,8 @@ function Home() {
         </div>
 
         </div>
-        <div className="py-16 bg-[#F5E6D3]">
 
-        <h2 className="text-4xl font-bold text-center mb-12">
-          Why Choose DreamLight Cafe
-        </h2>
-
-      < div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-10">
-
-        {FEATURES_CONFIG.map((feature, index) => (
-        <FeatureCard
-          key={index}
-          title={feature.title}
-          description={feature.description}
-          image={feature.image}
-        />
-        ))}
-
-      </div>
-
-      </div>
+        <FeatureSection />
 
     <Footer />
 
