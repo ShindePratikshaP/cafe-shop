@@ -3,12 +3,13 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import cafe from "../assets/cafe-img.jpeg";
 import FeatureSection from '../components/FeatureSection';
+import Button from '../components/Button';
 
 function Home() {
   return (
     <div>
         <Navbar />
-         <div className="relative w-full h-[600px] mt-16">
+         <div className="relative w-full h-[700px] ">
 
         <img
           src={cafe}
@@ -28,10 +29,11 @@ function Home() {
           <p className="text-xl mb-6">
             Fresh Coffee • Delicious Food • Cozy Atmosphere
           </p>
-
-          <button className="bg-yellow-500 px-6 py-3 rounded-lg text-black font-semibold hover:bg-yellow-400">
-            Explore Menu
-          </button>
+          <div className='flex flex-col md:flex-row gap-4 mt-4 justify-center'>
+            <Button title="Call us" variant="secondary" size="large" />
+            <Button title="Explore Menu" variant="primary" size="large" />
+          </div>
+          
 
         </div>
 

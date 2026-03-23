@@ -20,5 +20,6 @@ h6{
     @apply text-base font-thin;
 }
 body{
-    background-color: #F9F8F6;
+    background-color: rgb(255, 234, 193);
+    color: #52290d
 }
