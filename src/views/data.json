@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Cappuccino",
+    "description": "Rich espresso with milk foam",
+    "price": 199,
+    "image": "/images/cappuccino.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cold Coffee",
+    "description": "Chilled creamy coffee",
+    "price": 159,
+    "image": "/images/cold-coffe1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Veg Sandwich",
+    "description": "Grilled veggie sandwich",
+    "price": 139,
+    "image": "/images/veg-sandwitch1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cheese Sandwich",
+    "description": "Loaded with melted cheese",
+    "price": 149,
+    "image": "/images/cheese-sandwitch1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Paneer Sandwich",
+    "description": "Spicy paneer filling",
+    "price": 169,
+    "image": "/images/paneer-sandwitch.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Veg Momos",
+    "description": "Steamed dumplings",
+    "price": 129,
+    "image": "/images/veg-momos.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Fried Momos",
+    "description": "Crispy fried dumplings",
+    "price": 149,
+    "image": "/images/fried-momos.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Veg Burger",
+    "description": "Crispy patty in bun",
+    "price": 179,
+    "image": "/images/veg-burger.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Cheese Burger",
+    "description": "Burger with cheese",
+    "price": 199,
+    "image": "/images/cheese-burger.jpg"
+  },
+  {
+    "id": 10,
+    "name": "French Fries",
+    "description": "Crispy golden fries",
+    "price": 119,
+    "image": "/images/french-fries.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Peri Peri Fries",
+    "description": "Spicy fries",
+    "price": 139,
+    "image": "/images/peri-peri-fries.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Margherita Pizza",
+    "description": "Classic cheese pizza",
+    "price": 249,
+    "image": "/images/margherita-pizza.png"
+  },
+  {
+    "id": 13,
+    "name": "Veg Loaded Pizza",
+    "description": "Pizza with veggies",
+    "price": 299,
+    "image": "/images/veg-loaded-pizza.jpg"
+  },
+  {
+    "id": 14,
+    "name": "White Sauce Pasta",
+    "description": "Creamy pasta",
+    "price": 229,
+    "image": "/images/white-souce-pasta.png"
+  },
+  {
+    "id": 15,
+    "name": "Red Sauce Pasta",
+    "description": "Tomato pasta",
+    "price": 219,
+    "image": "/images/red-souce-pasta.png"
+  },
+  {
+    "id": 16,
+    "name": "Chocolate Cake",
+    "description": "Soft chocolate cake",
+    "price": 249,
+    "image": "/images/chocolate.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Brownie",
+    "description": "Fudgy brownie",
+    "price": 149,
+    "image": "/images/brownie.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Milkshake",
+    "description": "Thick creamy shake",
+    "price": 179,
+    "image": "/images/milkshake.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Cold Drink",
+    "description": "Refreshing beverage",
+    "price": 99,
+    "image": "/images/cold-drink.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Ice Cream",
+    "description": "Cold sweet dessert",
+    "price": 129,
+    "image": "/images/ice.jpg"
+  }
+]

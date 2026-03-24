@@ -4,8 +4,10 @@ import Footer from '../components/Footer';
 import cafe from "../assets/cafe-img.jpeg";
 import FeatureSection from '../components/FeatureSection';
 import Button from '../components/Button';
+import { useNavigate } from 'react-router';
 
 function Home() {
+  const Navigate = useNavigate();
   return (
     <div>
         <Navbar />
@@ -30,8 +32,14 @@ function Home() {
             Fresh Coffee • Delicious Food • Cozy Atmosphere
           </p>
           <div className='flex flex-col md:flex-row gap-4 mt-4 justify-center'>
-            <Button title="Call us" variant="secondary" size="large" />
-            <Button title="Explore Menu" variant="primary" size="large" />
+            <Button title={"Call us"} 
+              variant="secondary" 
+              size="large" />
+            <Button title={"Explore Menu"}
+               onClick={()=>{
+                Navigate("/Menu")
+                }}
+                variant="primary" size="large" />
           </div>
           
 

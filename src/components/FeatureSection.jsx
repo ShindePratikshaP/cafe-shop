@@ -58,7 +58,7 @@ image: service,
 
 function FeatureSection() {
   return (
-    <div className="py-16 bg-[#faefe1]">
+    <div className="py-16 bg-[#fdfae6]">
         <h2 className="text-4xl font-bold text-center mb-12">
               Why Choose DreamLight Cafe
             </h2>
