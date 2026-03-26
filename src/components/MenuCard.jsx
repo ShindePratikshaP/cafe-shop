@@ -9,6 +9,7 @@ function MenuCard({
     image,
     price,
     description,
+    addToCart
 }) {
     const [quantity,setquantity] = useState(1);
   return (
@@ -54,7 +55,18 @@ function MenuCard({
         <div className='flex justify-center'>
         <Button title={"Add To Cart"} 
             variant="tertiary" 
-            size="medium" 
+            size="medium"
+            onClick={()=>{
+                addToCart({
+                    id,
+                    name,
+                    price,
+                    quantity,
+                    description,
+                    image,
+                    addToCart
+                });
+            }} 
             />
             </div>
             <Toaster />

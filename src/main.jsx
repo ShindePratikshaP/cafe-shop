@@ -11,6 +11,7 @@ root.render(
 <Routes>
   <Route path="/" element={<Home />}/>
   <Route path="/Menu" element={<Menu />}/>
+  <Route path="/MyCart" element={<MyCart />}/>  
 </Routes>
 </BrowserRouter>
 )
