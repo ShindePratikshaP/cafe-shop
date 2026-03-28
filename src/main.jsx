@@ -4,6 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router'
 import "./index.css";
 import Home from './views/Home';
 import Menu from './views/Menu';
+import MyCart from './views/MyCart';
 const root = createRoot(document.getElementById("root"));
 
 root.render(

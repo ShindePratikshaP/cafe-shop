@@ -4,12 +4,14 @@ import Footer from '../components/Footer'
 import MENU_DATA  from './data.json';
 import MenuCard from '../components/MenuCard';
 import toast,{Toaster} from 'react-hot-toast';
+import { useState } from 'react';
 
 function Menu() {
-  function addToCart(item) {
-    const [refresh, setRefresh] = React.useState(false);  
+  const [refreshCart, setRefreshCart] = useState(false);
 
-    const existingCartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  function addToCart(item) { 
+
+    const existingCartItems = JSON.parse(localStorage.getItem("cart")) || [];
     const itemIndex = existingCartItems.findIndex(cartItem => cartItem.id === item.id);
 
     if (itemIndex !== -1) {
@@ -21,7 +23,7 @@ function Menu() {
     localStorage.setItem("cart", JSON.stringify(existingCartItems));
 
     setTimeout(() => {
-      setRefresh(!refresh);
+      setRefreshCart(!refreshCart);
       toast.success("Item added to cart");
     }, 1000);
 
@@ -29,7 +31,7 @@ function Menu() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar refreshCart={refreshCart}/>
       <div className='min-h-screen mt-[70px]'>
         <div className='flex flex-wrap justify-center'>
         {
