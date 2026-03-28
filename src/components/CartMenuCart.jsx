@@ -1,6 +1,13 @@
 import React from 'react'
 import Button from './Button';
 
+const removeFromCart = (id) => {
+    const existingCartItems = JSON.parse(localStorage.getItem("cart")) || [];
+    const updatedCartItems = existingCartItems.filter((item) => item.id !== id);
+    localStorage.setItem("cart", JSON.stringify(updatedCartItems));
+    window.location.reload();
+}
+
 function CartMenuCart({
     id,
     name,
@@ -34,7 +41,12 @@ function CartMenuCart({
 
       
       <div className='flex justify-end'>
-        <Button title="Remove From Cart" size="small" variant="tertiary" />
+        <Button title="Remove From Cart" size="small" variant="tertiary" 
+            onClick={()=>{
+                removeFromCart(id);
+            }}
+
+        />
       </div>
 
     </div>

@@ -5,6 +5,7 @@ import "./index.css";
 import Home from './views/Home';
 import Menu from './views/Menu';
 import MyCart from './views/MyCart';
+import Contact from './views/contact';
 const root = createRoot(document.getElementById("root"));
 
 root.render(
@@ -12,7 +13,8 @@ root.render(
 <Routes>
   <Route path="/" element={<Home />}/>
   <Route path="/Menu" element={<Menu />}/>
-  <Route path="/MyCart" element={<MyCart />}/>  
+  <Route path="/MyCart" element={<MyCart />}/>
+  <Route path="/Contact" element={<Contact />}/>  
 </Routes>
 </BrowserRouter>
 )
