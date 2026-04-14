@@ -5,7 +5,7 @@ import "./index.css";
 import Home from './views/Home';
 import Menu from './views/Menu';
 import MyCart from './views/MyCart';
-import Contact from './views/contact';
+import Contact from './views/Contact';
 const root = createRoot(document.getElementById("root"));
 
 root.render(
